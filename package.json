@@ -157,7 +157,7 @@
       "last 1 safari version"
     ]
   },
-    "gh-pages-deploy": {
+  "gh-pages-deploy": {
     "staticpath": "dist",
     "cname": "nope.org",
     "prep": [
