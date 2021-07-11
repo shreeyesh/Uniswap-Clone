@@ -157,6 +157,19 @@
       "last 1 safari version"
     ]
   },
+    "gh-pages-deploy": {
+    "staticpath": "dist",
+    "cname": "nope.org",
+    "prep": [
+      "build-sass",
+      "optimize-img"
+    ],
+    "commit": "a custom commit message",
+    "post": [
+      "clean-source"
+    ],
+    "noprompt": false
+  },
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "gh-pages": "^3.2.3"
